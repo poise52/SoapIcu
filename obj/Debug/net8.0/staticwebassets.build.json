@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "Hash": "qnTBUIWzWhq8+Czf01I8jRDjYm+/gkRfhSsV9yQLNZ4=",
+  "Source": "IcuTechLogin",
+  "BasePath": "_content/IcuTechLogin",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "IcuTechLogin/wwwroot",
+      "Source": "IcuTechLogin",
+      "ContentRoot": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/",
+      "BasePath": "_content/IcuTechLogin",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/index.html",
+      "SourceId": "IcuTechLogin",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/",
+      "BasePath": "_content/IcuTechLogin",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vsl6oy6ejp",
+      "Integrity": "33PeEBJlPdYY+Tu4k3gCZdMub5wwziwSTuE1n8VlW58=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/register.html",
+      "SourceId": "IcuTechLogin",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/",
+      "BasePath": "_content/IcuTechLogin",
+      "RelativePath": "register#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b6exrqr32c",
+      "Integrity": "A9nDBiV8WKMkDmCHVNl/55QHSxI2m2mgCszEAgD+cbk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/register.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.html",
+      "AssetFile": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4638"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"33PeEBJlPdYY+Tu4k3gCZdMub5wwziwSTuE1n8VlW58=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Nov 2025 10:23:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-33PeEBJlPdYY+Tu4k3gCZdMub5wwziwSTuE1n8VlW58="
+        }
+      ]
+    },
+    {
+      "Route": "index.vsl6oy6ejp.html",
+      "AssetFile": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4638"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"33PeEBJlPdYY+Tu4k3gCZdMub5wwziwSTuE1n8VlW58=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Nov 2025 10:23:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vsl6oy6ejp"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-33PeEBJlPdYY+Tu4k3gCZdMub5wwziwSTuE1n8VlW58="
+        }
+      ]
+    },
+    {
+      "Route": "register.b6exrqr32c.html",
+      "AssetFile": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/register.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5944"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A9nDBiV8WKMkDmCHVNl/55QHSxI2m2mgCszEAgD+cbk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Nov 2025 10:23:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b6exrqr32c"
+        },
+        {
+          "Name": "label",
+          "Value": "register.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A9nDBiV8WKMkDmCHVNl/55QHSxI2m2mgCszEAgD+cbk="
+        }
+      ]
+    },
+    {
+      "Route": "register.html",
+      "AssetFile": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/register.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5944"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A9nDBiV8WKMkDmCHVNl/55QHSxI2m2mgCszEAgD+cbk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Nov 2025 10:23:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A9nDBiV8WKMkDmCHVNl/55QHSxI2m2mgCszEAgD+cbk="
+        }
+      ]
+    }
+  ]
+}

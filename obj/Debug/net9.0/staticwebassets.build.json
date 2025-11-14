@@ -1,0 +1,702 @@
+{
+  "Version": 1,
+  "Hash": "t9uA1HVj9LgdFsAfoe1Yvf9tpKZ1JoumhmMpiHkVPyk=",
+  "Source": "IcuTechLogin",
+  "BasePath": "_content/IcuTechLogin",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "IcuTechLogin/wwwroot",
+      "Source": "IcuTechLogin",
+      "ContentRoot": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/",
+      "BasePath": "_content/IcuTechLogin",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/obj/Debug/net9.0/compressed/a1t7nz8bt0-gaelgki0m2.gz",
+      "SourceId": "IcuTechLogin",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/IcuTechLogin",
+      "RelativePath": "index#[.{fingerprint=gaelgki0m2}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "dbohzcafen",
+      "Integrity": "p1dcNYHf7zyi81xxwwXk3QL6XQXxBV4uACHrhvAn25E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/index.html"
+    },
+    {
+      "Identity": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/obj/Debug/net9.0/compressed/r4wvw00akt-79uhvkkrpb.gz",
+      "SourceId": "IcuTechLogin",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/IcuTechLogin",
+      "RelativePath": "register#[.{fingerprint=79uhvkkrpb}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/register.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xcphw9g3mt",
+      "Integrity": "X8HJWJ174Pf4OSjbTO8lTNuGeg9RGnXTAEcgkOfi8gQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/register.html"
+    },
+    {
+      "Identity": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/index.html",
+      "SourceId": "IcuTechLogin",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/",
+      "BasePath": "_content/IcuTechLogin",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gaelgki0m2",
+      "Integrity": "mDu74y4EdxAWmUmOlJpdwcTpFQre8g6apsijVHCFvW4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/register.html",
+      "SourceId": "IcuTechLogin",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/",
+      "BasePath": "_content/IcuTechLogin",
+      "RelativePath": "register#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "79uhvkkrpb",
+      "Integrity": "awIvbKhg5scowtaR0V3ChXEj2z6PP27D4RFWEmBmMV0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/register.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.gaelgki0m2.html",
+      "AssetFile": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/obj/Debug/net9.0/compressed/a1t7nz8bt0-gaelgki0m2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000386249517"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2588"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p1dcNYHf7zyi81xxwwXk3QL6XQXxBV4uACHrhvAn25E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Nov 2025 10:47:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"mDu74y4EdxAWmUmOlJpdwcTpFQre8g6apsijVHCFvW4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gaelgki0m2"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mDu74y4EdxAWmUmOlJpdwcTpFQre8g6apsijVHCFvW4="
+        }
+      ]
+    },
+    {
+      "Route": "index.gaelgki0m2.html",
+      "AssetFile": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8210"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mDu74y4EdxAWmUmOlJpdwcTpFQre8g6apsijVHCFvW4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Nov 2025 10:47:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gaelgki0m2"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mDu74y4EdxAWmUmOlJpdwcTpFQre8g6apsijVHCFvW4="
+        }
+      ]
+    },
+    {
+      "Route": "index.gaelgki0m2.html.gz",
+      "AssetFile": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/obj/Debug/net9.0/compressed/a1t7nz8bt0-gaelgki0m2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2588"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p1dcNYHf7zyi81xxwwXk3QL6XQXxBV4uACHrhvAn25E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Nov 2025 10:47:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gaelgki0m2"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p1dcNYHf7zyi81xxwwXk3QL6XQXxBV4uACHrhvAn25E="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/obj/Debug/net9.0/compressed/a1t7nz8bt0-gaelgki0m2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000386249517"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2588"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p1dcNYHf7zyi81xxwwXk3QL6XQXxBV4uACHrhvAn25E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Nov 2025 10:47:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"mDu74y4EdxAWmUmOlJpdwcTpFQre8g6apsijVHCFvW4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mDu74y4EdxAWmUmOlJpdwcTpFQre8g6apsijVHCFvW4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8210"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mDu74y4EdxAWmUmOlJpdwcTpFQre8g6apsijVHCFvW4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Nov 2025 10:47:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mDu74y4EdxAWmUmOlJpdwcTpFQre8g6apsijVHCFvW4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/obj/Debug/net9.0/compressed/a1t7nz8bt0-gaelgki0m2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2588"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p1dcNYHf7zyi81xxwwXk3QL6XQXxBV4uACHrhvAn25E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Nov 2025 10:47:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p1dcNYHf7zyi81xxwwXk3QL6XQXxBV4uACHrhvAn25E="
+        }
+      ]
+    },
+    {
+      "Route": "register.79uhvkkrpb.html",
+      "AssetFile": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/obj/Debug/net9.0/compressed/r4wvw00akt-79uhvkkrpb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000325520833"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3071"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X8HJWJ174Pf4OSjbTO8lTNuGeg9RGnXTAEcgkOfi8gQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Nov 2025 10:47:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"awIvbKhg5scowtaR0V3ChXEj2z6PP27D4RFWEmBmMV0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "79uhvkkrpb"
+        },
+        {
+          "Name": "label",
+          "Value": "register.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-awIvbKhg5scowtaR0V3ChXEj2z6PP27D4RFWEmBmMV0="
+        }
+      ]
+    },
+    {
+      "Route": "register.79uhvkkrpb.html",
+      "AssetFile": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/register.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"awIvbKhg5scowtaR0V3ChXEj2z6PP27D4RFWEmBmMV0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Nov 2025 10:47:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "79uhvkkrpb"
+        },
+        {
+          "Name": "label",
+          "Value": "register.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-awIvbKhg5scowtaR0V3ChXEj2z6PP27D4RFWEmBmMV0="
+        }
+      ]
+    },
+    {
+      "Route": "register.79uhvkkrpb.html.gz",
+      "AssetFile": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/obj/Debug/net9.0/compressed/r4wvw00akt-79uhvkkrpb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3071"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X8HJWJ174Pf4OSjbTO8lTNuGeg9RGnXTAEcgkOfi8gQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Nov 2025 10:47:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "79uhvkkrpb"
+        },
+        {
+          "Name": "label",
+          "Value": "register.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X8HJWJ174Pf4OSjbTO8lTNuGeg9RGnXTAEcgkOfi8gQ="
+        }
+      ]
+    },
+    {
+      "Route": "register.html",
+      "AssetFile": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/obj/Debug/net9.0/compressed/r4wvw00akt-79uhvkkrpb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000325520833"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3071"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X8HJWJ174Pf4OSjbTO8lTNuGeg9RGnXTAEcgkOfi8gQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Nov 2025 10:47:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"awIvbKhg5scowtaR0V3ChXEj2z6PP27D4RFWEmBmMV0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-awIvbKhg5scowtaR0V3ChXEj2z6PP27D4RFWEmBmMV0="
+        }
+      ]
+    },
+    {
+      "Route": "register.html",
+      "AssetFile": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/register.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"awIvbKhg5scowtaR0V3ChXEj2z6PP27D4RFWEmBmMV0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Nov 2025 10:47:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-awIvbKhg5scowtaR0V3ChXEj2z6PP27D4RFWEmBmMV0="
+        }
+      ]
+    },
+    {
+      "Route": "register.html.gz",
+      "AssetFile": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/obj/Debug/net9.0/compressed/r4wvw00akt-79uhvkkrpb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3071"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X8HJWJ174Pf4OSjbTO8lTNuGeg9RGnXTAEcgkOfi8gQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Nov 2025 10:47:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X8HJWJ174Pf4OSjbTO8lTNuGeg9RGnXTAEcgkOfi8gQ="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICU-Tech Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .auth-container {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+        .toast-container {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 9999;
+        }
+        .form-control.is-invalid {
+            border-color: #dc3545;
+            padding-right: calc(1.5em + 0.75rem);
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right calc(0.375em + 0.1875rem) center;
+            background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+        }
+        .form-control.is-valid {
+            border-color: #198754;
+            padding-right: calc(1.5em + 0.75rem);
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right calc(0.375em + 0.1875rem) center;
+            background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+        }
+        .invalid-feedback {
+            display: none;
+            width: 100%;
+            margin-top: 0.25rem;
+            font-size: 0.875em;
+            color: #dc3545;
+        }
+        .invalid-feedback.d-block {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="toast-container" id="toastContainer"></div>
+
+<div class="auth-container">
+    <h2 class="text-center mb-4">Sign In</h2>
+    <form id="loginForm" novalidate>
+        <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input
+                    type="text"
+                    class="form-control"
+                    id="username"
+                    placeholder="Enter your username"
+            >
+            <div class="invalid-feedback" id="usernameError"></div>
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    placeholder="Enter your password"
+            >
+            <div class="invalid-feedback" id="passwordError"></div>
+        </div>
+        <button type="submit" class="btn btn-primary w-100 mb-3">Login</button>
+        <div class="text-center">
+            <a href="register.html" class="text-decoration-none">Don't have an account? Register</a>
+        </div>
+    </form>
+    
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  const validationRules = {
+    username: [
+      { validator: (value) => value.trim().length > 0, message: 'Username is required' },
+      { validator: (value) => value.trim().length >= 3, message: 'Username must be at least 3 characters' }
+    ],
+    password: [
+      { validator: (value) => value.trim().length > 0, message: 'Password is required' },
+      { validator: (value) => value.trim().length >= 6, message: 'Password must be at least 6 characters' }
+    ]
+  };
+
+  function validateField(fieldId, value) {
+    const rules = validationRules[fieldId];
+    const input = document.getElementById(fieldId);
+    const errorDiv = document.getElementById(`${fieldId}Error`);
+
+    if (!rules) return true;
+
+    for (const rule of rules) {
+      if (!rule.validator(value)) {
+        input.classList.add('is-invalid');
+        input.classList.remove('is-valid');
+        errorDiv.textContent = rule.message;
+        errorDiv.classList.add('d-block');
+        return false;
+      }
+    }
+
+    input.classList.remove('is-invalid');
+    input.classList.add('is-valid');
+    errorDiv.classList.remove('d-block');
+    return true;
+  }
+
+  function validateForm() {
+    let isValid = true;
+
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+
+    if (!validateField('username', username)) isValid = false;
+    if (!validateField('password', password)) isValid = false;
+
+    return isValid;
+  }
+
+  ['username', 'password'].forEach(fieldId => {
+    const input = document.getElementById(fieldId);
+
+    input.addEventListener('blur', () => {
+      validateField(fieldId, input.value);
+    });
+
+    input.addEventListener('input', () => {
+      if (input.classList.contains('is-invalid') || input.classList.contains('is-valid')) {
+        validateField(fieldId, input.value);
+      }
+    });
+  });
+
+  function showToast(message, type = 'success') {
+    const toastContainer = document.getElementById('toastContainer');
+    const toastId = 'toast-' + Date.now();
+    const bgClass = type === 'success' ? 'bg-success' : 'bg-danger';
+
+    const toastHTML = `
+                <div id="${toastId}" class="toast align-items-center text-white ${bgClass} border-0" role="alert">
+                    <div class="d-flex">
+                        <div class="toast-body">${message}</div>
+                        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+                    </div>
+                </div>
+            `;
+
+    toastContainer.insertAdjacentHTML('beforeend', toastHTML);
+    const toastElement = document.getElementById(toastId);
+    const toast = new bootstrap.Toast(toastElement, { delay: 3000 });
+    toast.show();
+
+    toastElement.addEventListener('hidden.bs.toast', () => toastElement.remove());
+  }
+
+  document.getElementById('loginForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    if (!validateForm()) {
+      showToast('Please fix validation errors', 'error');
+      return;
+    }
+
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+
+    const submitBtn = e.target.querySelector('button[type="submit"]');
+    const originalText = submitBtn.textContent;
+    submitBtn.disabled = true;
+    submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>Loading...';
+
+    try {
+      const response = await fetch('/api/auth/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, password })
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        showToast('Login successful!', 'success');
+        const detailsDiv = document.getElementById('entityDetails');
+        const contentDiv = document.getElementById('detailsContent');
+        if (detailsDiv && contentDiv) {
+          detailsDiv.style.display = 'block';
+          contentDiv.textContent = result.data;
+        }
+      } else {
+        showToast('Login failed: ' + result.error, 'error');
+        const detailsDiv = document.getElementById('entityDetails');
+        if (detailsDiv) {
+          detailsDiv.style.display = 'none';
+        }
+      }
+    } catch (error) {
+      showToast('Error: ' + error.message, 'error');
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = originalText;
+    }
+  });
+</script>
+</body>
+</html>

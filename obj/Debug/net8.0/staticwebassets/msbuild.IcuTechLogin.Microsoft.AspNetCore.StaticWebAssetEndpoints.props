@@ -1,0 +1,28 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/IcuTechLogin/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-33PeEBJlPdYY\u002BTu4k3gCZdMub5wwziwSTuE1n8VlW58="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4638"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u002233PeEBJlPdYY\u002BTu4k3gCZdMub5wwziwSTuE1n8VlW58=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Nov 2025 10:23:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IcuTechLogin/index.vsl6oy6ejp.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vsl6oy6ejp"},{"Name":"integrity","Value":"sha256-33PeEBJlPdYY\u002BTu4k3gCZdMub5wwziwSTuE1n8VlW58="},{"Name":"label","Value":"_content/IcuTechLogin/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4638"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u002233PeEBJlPdYY\u002BTu4k3gCZdMub5wwziwSTuE1n8VlW58=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Nov 2025 10:23:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IcuTechLogin/register.b6exrqr32c.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\register.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b6exrqr32c"},{"Name":"integrity","Value":"sha256-A9nDBiV8WKMkDmCHVNl/55QHSxI2m2mgCszEAgD\u002Bcbk="},{"Name":"label","Value":"_content/IcuTechLogin/register.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5944"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022A9nDBiV8WKMkDmCHVNl/55QHSxI2m2mgCszEAgD\u002Bcbk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Nov 2025 10:23:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IcuTechLogin/register.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\register.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-A9nDBiV8WKMkDmCHVNl/55QHSxI2m2mgCszEAgD\u002Bcbk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5944"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022A9nDBiV8WKMkDmCHVNl/55QHSxI2m2mgCszEAgD\u002Bcbk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Nov 2025 10:23:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
