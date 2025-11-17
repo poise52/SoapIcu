@@ -93,12 +93,10 @@
 <script>
   const validationRules = {
     username: [
-      { validator: (value) => value.trim().length > 0, message: 'Username is required' },
-      { validator: (value) => value.trim().length >= 3, message: 'Username must be at least 3 characters' }
+      { validator: (value) => value.trim().length > 0, message: 'Username is required' }
     ],
     password: [
-      { validator: (value) => value.trim().length > 0, message: 'Password is required' },
-      { validator: (value) => value.trim().length >= 6, message: 'Password must be at least 6 characters' }
+      { validator: (value) => value.trim().length > 0, message: 'Password is required' }
     ]
   };
 

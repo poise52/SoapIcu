@@ -119,20 +119,16 @@
       { validator: (value) => emailRegex.test(value), message: 'Invalid email format' }
     ],
     password: [
-      { validator: (value) => value.trim().length > 0, message: 'Password is required' },
-      { validator: (value) => value.trim().length >= 6, message: 'Password must be at least 6 characters' }
+      { validator: (value) => value.trim().length > 0, message: 'Password is required' }
     ],
     firstName: [
-      { validator: (value) => value.trim().length > 0, message: 'First name is required' },
-      { validator: (value) => value.trim().length >= 2, message: 'First name must be at least 2 characters' }
+      { validator: (value) => value.trim().length > 0, message: 'First name is required' }
     ],
     lastName: [
-      { validator: (value) => value.trim().length > 0, message: 'Last name is required' },
-      { validator: (value) => value.trim().length >= 2, message: 'Last name must be at least 2 characters' }
+      { validator: (value) => value.trim().length > 0, message: 'Last name is required' }
     ],
     mobile: [
-      { validator: (value) => value.trim().length > 0, message: 'Mobile is required' },
-      { validator: (value) => /^\d{10,15}$/.test(value.replace(/\s/g, '')), message: 'Mobile must be 10-15 digits' }
+      { validator: (value) => value.trim().length > 0, message: 'Mobile is required' }
     ],
     countryId: [
       { validator: (value) => value !== '', message: 'Country ID is required' },
@@ -180,7 +176,6 @@
     return isValid;
   }
 
-  // Add real-time validation
   Object.keys(validationRules).forEach(fieldId => {
     const input = document.getElementById(fieldId);
 
