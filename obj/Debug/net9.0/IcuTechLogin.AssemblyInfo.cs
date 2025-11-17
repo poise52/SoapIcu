@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IcuTechLogin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90aed7d91a9ee61c7d6b57c45e5c63ab8768c02e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1700823697890ac68dfa75d1f7ee571dc3d0bbb")]
 [assembly: System.Reflection.AssemblyProductAttribute("IcuTechLogin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IcuTechLogin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

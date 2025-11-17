@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/IcuTechLogin.csproj": {}
+    "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin.csproj": {}
   },
   "projects": {
-    "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/IcuTechLogin.csproj": {
+    "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/IcuTechLogin.csproj",
+        "projectUniqueName": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin.csproj",
         "projectName": "IcuTechLogin",
-        "projectPath": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/IcuTechLogin.csproj",
+        "projectPath": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin.csproj",
         "packagesPath": "/home/poise/.nuget/packages/",
-        "outputPath": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/obj/",
+        "outputPath": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/poise/.nuget/NuGet/NuGet.Config"

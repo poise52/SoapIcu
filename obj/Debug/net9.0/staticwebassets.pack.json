@@ -1,11 +1,11 @@
 {
   "Files": [
     {
-      "Id": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/index.html",
+      "Id": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
     },
     {
-      "Id": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/IcuTechLogin/wwwroot/register.html",
+      "Id": "/home/poise/RiderProjects/IcuTechAuth/IcuTechLogin/wwwroot/register.html",
       "PackagePath": "staticwebassets/register.html"
     },
     {
